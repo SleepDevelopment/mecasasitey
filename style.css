@@ -1,0 +1,38 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+header
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img.gif);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+.main
+{
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	text-align: center;
+}
+h1
+{
+	font-size: 30px;
+	letter-spacing: 10px;
+}
+hr
+{
+	width: 50%;
+	margin: 30px auto;
+	border: 1.5px solid #fff;
+}
+p
+{
+	font-size: 20px;
+	margin-bottom: 30px;
+	letter-spacing: 3px;
+}
